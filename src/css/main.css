@@ -1,3 +1,30 @@
-.main-wrapper {
+@import url("./nav.css");
+@import url("./side-guide.css");
+@import url("./footer.css");
+
+.main-content {
     font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.main-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 7px;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.container {
+    background: red;
+    margin-right: 91px;
+    margin-left: 91px;
+    padding: 15px;
+}
+.content {
+    background-color: rgb(245, 245, 245);
 }

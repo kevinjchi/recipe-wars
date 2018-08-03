@@ -1,10 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Test from "./Test";
+import FooterBar from "./footer/FooterBar"
+import MainContent from "./MainContent";
+import NavBar from "./topnav/NavBar";
+import "../css/main.css";
 
 const App = () => (
-  <div className="main-wrapper">
-    <Test />
+  <div className="content">
+    <NavBar />
+    <MainContent />
+    <FooterBar />
   </div>
 );
 

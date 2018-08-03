@@ -1,5 +1,5 @@
 {
-  "name": "bookworm-app",
+  "name": "recipe-wars",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

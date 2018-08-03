@@ -1,0 +1,9 @@
+.side-content {
+    height: 100%;
+    width: 12%;
+    float: left;
+    position: static;
+    border-right: 2px;
+    border-color: rgb(180, 180, 180);
+    background-color: rgb(245, 245, 245);
+}
