@@ -1,10 +1,13 @@
 import * as React from "react";
+import HomeSection from "./HomeSection";
+import RecipesSection from "./RecipesSection";
 
 class SideBar extends React.Component {
     render() {
         return (
         <div className="side-content">
-            sidebar!
+            <HomeSection />
+            <RecipesSection />
         </div>);
     }
 }

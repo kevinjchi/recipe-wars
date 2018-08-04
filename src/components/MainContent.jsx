@@ -9,8 +9,8 @@ class MainContent extends React.Component {
         <div className="main-content">
             <div className="main-wrapper">
                 <div className="container">
-                <SideBar />
-                <InnerContent />
+                    <SideBar />
+                    <InnerContent />
                 </div>
             </div>
         </div>);

@@ -1,15 +1,14 @@
 @import url("./nav.css");
 @import url("./side-guide.css");
 @import url("./footer.css");
+@import url("./side-guide.css");
 
+body {
+    background-color: rgb(245, 245, 245);
+}
 .main-content {
-    font-size: 14px;
     padding-top: 4px;
     padding-bottom: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
 }
 .main-wrapper {
     margin-right: auto;
@@ -24,7 +23,9 @@
     margin-right: 91px;
     margin-left: 91px;
     padding: 15px;
+    display: flex;
 }
 .content {
-    background-color: rgb(245, 245, 245);
+    height: 100%;
+    width: 100%;
 }
